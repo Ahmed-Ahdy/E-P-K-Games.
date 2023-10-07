@@ -1,0 +1,225 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Web Dev",
+      "description": "Web Development"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App Dev",
+      "description": "Mobile App Development"
+    },
+    {
+      "id": 3,
+      "name": "QC",
+      "description": "Quality Control"
+    },
+    {
+      "name": "T&S",
+      "description": "Technical Support",
+      "id": 4
+    },
+    {
+      "name": "BA",
+      "description": "Business Analysis",
+      "id": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 101,
+      "fullName": "Osama Ahmed",
+      "position": "Mid-level Developer",
+      "salary": 9500,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/blue/white"
+    },
+    {
+      "id": 102,
+      "fullName": "Hussein Othman",
+      "position": "Tester",
+      "salary": 7500,
+      "departmentId": 3,
+      "imageUrl": "https://placehold.co/100x30/green/white"
+    },
+    {
+      "id": 103,
+      "fullName": "Wael Mahmoud",
+      "position": "Senior Developer",
+      "salary": 12500,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/red/white"
+    },
+    {
+      "id": 104,
+      "fullName": "Bahaa Mostafa Ali",
+      "position": "Senior Tester",
+      "salary": 9500,
+      "departmentId": 3,
+      "imageUrl": "https://placehold.co/100x30/brown/white"
+    },
+    {
+      "id": 105,
+      "fullName": "Hassan Mohammed",
+      "position": "Tech Lead",
+      "salary": 13500,
+      "departmentId": 2,
+      "imageUrl": "https://placehold.co/100x30/black/white"
+    },
+    {
+      "id": 106,
+      "fullName": "Ayman Ali",
+      "position": "Team Leader",
+      "salary": 15000,
+      "departmentId": 2,
+      "imageUrl": "https://placehold.co/100x30/darkgray/white"
+    },
+    {
+      "id": 107,
+      "fullName": "Hossam Mahmoud",
+      "position": "Tech Lead",
+      "salary": 14000,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/orange/white"
+    },
+    {
+      "id": 108,
+      "fullName": "Ayman Ashraf",
+      "position": "Junior Developer",
+      "salary": 8000,
+      "departmentId": 1,
+      "imageUrl": "https://placehold.co/100x30/purple/white"
+    }
+  ],
+  "categories": [
+    {
+      "id": 201,
+      "name": "SW",
+      "description": "Software"
+    },
+    {
+      "id": 202,
+      "name": "HW",
+      "description": "Hardware"
+    },
+    {
+      "id": 203,
+      "name": "Consultancy",
+      "description": "Consultancy Service"
+    },
+    {
+      "id": 204,
+      "name": "Training",
+      "description": "Training Service"
+    }
+  ],
+  "products": [
+    {
+      "id": 301,
+      "name": "GTA",
+      "subname": "Grand Theft Auto",
+      "description": "The Grand Theft Auto V: Premium Edition includes the complete GTAV story, Grand Theft Auto Online and all existing gameplay upgrades and content. You will also get the Criminal Enterprise Starter Pack, the fastest way to jumpstart your criminal empire in GTA Online.",
+      "price": 60
+    },
+    {
+      "id": 302,
+      "name": "ERP",
+      "description": "Enterprise Resource Planning",
+      "price": 285000,
+      "categoryId": 201,
+      "imageUrl": "https://placehold.co/100x30/brown/white"
+    },
+    {
+      "id": 303,
+      "name": "AMS-2",
+      "description": "Assets Management System V2.0",
+      "price": "245000",
+      "imageUrl": "https://placehold.co/200x70/brown/white",
+      "categoryId": "201"
+    },
+    {
+      "id": 304,
+      "name": "HIS",
+      "description": "Hospital Information System",
+      "price": "235000",
+      "imageUrl": "https://placehold.co/100x50/green/white",
+      "categoryId": "201"
+    },
+    {
+      "id": 305,
+      "name": "HRMS",
+      "description": "Human Resources Management System",
+      "price": "165000",
+      "imageUrl": "https://placehold.co/100x30/yellow/black",
+      "categoryId": "201"
+    },
+    {
+      "id": 306,
+      "name": "ABC",
+      "description": "DEF",
+      "price": "15000",
+      "imageUrl": "https://placehold.co/115x30",
+      "categoryId": "202"
+    },
+    {
+      "id": 307,
+      "name": "GHI",
+      "description": "JKL",
+      "price": "17500",
+      "imageUrl": "https://placehold.co/175x30",
+      "categoryId": "202"
+    }
+  ],
+  "users": [
+    {
+      "id": 51,
+      "username": "ahmedahdy66",
+      "email": "ahmed6ahdy666@gmail.commm",
+      "password": "2588526661",
+      "dateofjoin": "3/9/2020"
+    },
+    {
+      "id": 52,
+      "username": "Asem_khaled77",
+      "email": "asemkhaled2001@gmail.com",
+      "password": 123456,
+      "dateofjoin": "2/10/2023"
+    },
+    {
+      "id": 53,
+      "username": "barsoum_rateb69",
+      "email": "barsoumrateb69@gmail.com",
+      "password": 789789,
+      "dateofjoin": "18/3/2019"
+    },
+    {
+      "id": 54,
+      "username": "raed-adel74",
+      "email": "raedadel74@gmail.com",
+      "password": 189189,
+      "dateofjoin": "25/4/2018"
+    },
+    {
+      "username": "jamal musiala",
+      "email": "jamal@gmail.com",
+      "password": "785412369",
+      "dateofjoin": "7/10/2023",
+      "id": 55
+    },
+    {
+      "username": "moussa diaby",
+      "email": "uuuuuuuuuu",
+      "password": "496518",
+      "dateofjoin": "7/10/2023",
+      "id": 56
+    },
+    {
+      "username": "kimmich",
+      "email": "kkiasn@gmail",
+      "password": "88",
+      "dateofjoin": "7/10/2023",
+      "id": 57
+    }
+  ]
+}

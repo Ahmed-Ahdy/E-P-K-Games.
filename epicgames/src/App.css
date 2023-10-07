@@ -1,0 +1,736 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1fd70a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 1250px;
+  margin: auto;
+
+}
+
+
+
+.maincard {
+  width: 70%;
+  margin: auto;
+
+
+}
+
+.cards {
+  width: 30%;
+}
+
+.UserTable {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.EditUserTable {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.DetailsUserTable {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* margin-top: 150px; */
+}
+
+.AddNewUserForm {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+}
+
+.alert1 {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.close {
+  margin: 70px 0 32px 58px;
+  display: flex;
+
+}
+
+.close2 {
+  margin: 70px 0 32px px;
+  display: flex;
+
+}
+
+.landing {
+  background-image: url(images/Diesel_untitled-page_EGS_News_Evergreen-1920x1080-8ca7376077d174b4fc77c92462c7adb546b4fb18.jpg);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.Homelanding {
+  background-image: url(images/Diesel_untitled-page_EGS_News_Evergreen-1920x1080-8ca7376077d174b4fc77c92462c7adb546b4fb18.jpg);
+  background-size: cover;
+  height: 1250px;
+  text-align: center;
+}
+
+.search {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.receipt {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  /* margin-top: 30px; */
+  background-image: url(images/1018084-illustration-video-games-red-text-gamers-Gamer-Rockstar-Games-poster-Red-Dead-Redemption-2-brand-western-Red-Dead-Redemption-advertising-font-album-cover.png);
+  height: 1200px;
+}
+
+.lan {
+  background-image: url(images/1018084-illustration-video-games-red-text-gamers-Gamer-Rockstar-Games-poster-Red-Dead-Redemption-2-brand-western-Red-Dead-Redemption-advertising-font-album-cover.png);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  border-radius: 10px;
+  padding: 30px 32px 0;
+  width: 60%;
+  text-align: left;
+
+}
+
+.zorar {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 70px; */
+  color: white;
+
+}
+
+.over .p1 {
+  margin-bottom: 70px;
+  color: aliceblue;
+  width: 350px;
+}
+
+.over .p2 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.over {
+  margin-top: 420px;
+}
+
+/* .over {
+  background-color: rgba(0, 0, 0, .2);
+  padding: 15px;
+  color: aliceblue;
+} */
+
+.back {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: nowrap;
+  padding-top: 64px;
+}
+
+.background {
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  width: 100%;
+  height: 100%;
+}
+
+.ahmed {
+  height: 630px;
+  padding-bottom: 64px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+
+}
+
+.tree {
+  background-color: rgb(18, 17, 17);
+}
+
+.controller {
+  color: aliceblue;
+  margin-left: 20px;
+  font-size: larger;
+  margin-bottom: 80px;
+  transition: 0.5s;
+}
+
+.controller:hover {
+  color: #848383;
+}
+
+.links {
+  list-style: none;
+  padding-top: 10px;
+  margin-left: -10px;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 14px;
+  transition: 0.4;
+}
+
+.links li:hover {
+  color: #848383;
+}
+
+.rightDiv {
+  width: 30%;
+  margin-left: 60px;
+
+}
+
+.smallDiv {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.4s;
+  /* text-decoration: none; */
+
+}
+
+.link11 {
+  text-decoration: none;
+}
+
+.smallDiv img {
+  display: block;
+  width: 32%;
+  height: 90px;
+  margin-right: 12px;
+  border-radius: 10px;
+
+}
+
+.smallDiv h3 {
+  color: white;
+  font-size: small;
+  margin-top: 30px;
+}
+
+.smallDiv:hover {
+  background-color: rgb(77, 77, 77);
+}
+
+.second-Section {
+  padding-bottom: 64px;
+}
+
+.heading {
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+  padding: 36px 60px;
+  font-size: small;
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 0 60px;
+}
+
+.game-card {
+  width: 14%;
+  padding: 16px;
+  transition: 0.6s;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.game-card p {
+  color: white;
+}
+
+del {
+  margin: 0 7px;
+}
+
+.span-1 {
+  padding: 3px;
+  background-color: blue;
+  border-radius: 5px;
+
+}
+
+.game-card:hover {
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
+}
+
+.container4 {
+  width: 1250px;
+  margin: auto;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.receip2t {
+  margin-left: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 40%;
+}
+
+/*   //////////////       game Red Dead      ////////////////////////        */
+.red-dead-image {
+  background-image: url(../src/images/1366_2000.png);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.back1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-wrap: nowrap; */
+  padding-top: 64px;
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.left-side {
+  width: 66%;
+  padding-top: 25px;
+}
+
+.title {
+  color: white;
+  text-align: left;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.description {
+  width: 30%;
+  padding-top: 300px;
+  margin-left: 30px;
+}
+
+.right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.zorar2 {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 70px; */
+  color: rgb(255, 0, 0);
+}
+
+.description-table {
+  margin-left: 110px;
+  margin-right: 50px;
+  margin-top: 30px;
+  color: white;
+}
+
+.klam {
+  padding-left: 60px;
+}
+
+.arthuer-images {
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.stars {
+  margin-right: 300px;
+  font-size: larger;
+
+}
+
+.req {
+  background-color: #333333;
+  padding: 19px;
+}
+
+.requirments {
+  display: flex;
+}
+
+.left-left-side {
+  display: flex;
+}
+
+.dom {
+  color: rgb(96, 93, 93);
+  text-align: left;
+  margin: 0;
+}
+
+.dam {
+  color: white;
+  text-align: left;
+
+}
+
+.elpop2 {
+  margin-top: 90px;
+  margin-left: 40px;
+}
+
+/* ////////////////////////////// game Fifa///////////////// */
+.Fifa-image {
+  background-image: url(../src/images/EASPORTS_FC24_art.jpg);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.right-side-fifa-img {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 45px;
+}
+
+.Fifa-zorar2 {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 70px; */
+}
+
+/* ////////////////////////////// gta /////////////////////// */
+.gta-image {
+  background-image: url(../src/images/Grand-Theft-Auto-V-live-player-count.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.gta-zorar2 {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* margin-top: px; */
+  margin-left: 60px;
+}
+
+.gta-description-table {
+  margin-left: 62px;
+  margin-right: 35px;
+  margin-top: 30px;
+  color: white;
+}
+
+/* /////////////////////////// mirage /////////////////////*/
+.mirage-image {
+  background-image: url(../src/images/assassins-creed-mirage-a.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.mirage-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+
+/*///////////////////////////////////  farcry  /////////////// */
+.cry-image {
+  background-image: url(../src/images/keyart_960x540.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.cry-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+
+/*/////////////////////////  days gone     ////////////////// */
+.days-image {
+  background-image: url(../src/images/days-gone-ps4-1.original-1.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.days-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 400px;
+}
+
+
+/*//////////////////////// Rainbow /////////////////// */
+.rain-image {
+  background-image: url(../src/images/x9kkbIG.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.rain-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 400px;
+
+}
+
+/* /////////////////// hitman 3  /////////////////////// */
+.hit-image {
+  background-image: url(../src/images/hitman-3-7_g8st.png);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+/*///////////////////// cyberpunk77 //////////////////// */
+.cyber-image {
+  background-image: url(../src/images/Cyberpunk_2077_Phantom_Liberty_Banner.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.cyber-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 400px;
+
+}
+
+/* ///////////////////tomb raider ////////////////// */
+.tomb-image {
+  background-image: url(../src/images/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8.jpeg);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+/* ///////////////////// hunter /////////////////// */
+.hunter-image {
+  background-image: url(../src/images//iTEbOxCxvOKlQdSoMihNXHy6.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.hunter-right-side-img {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  width: 400px;
+
+}
+
+/* ///////////////////////////// Civilization vi //////////////// */
+.civil-image {
+  background-image: url(../src/images/civilization-stats.webp);
+  height: 530px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 700px; */
+  margin-top: 2px;
+  margin-left: 64px;
+  /* padding-top: 30px; */
+  padding: 30px 32px 0;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.civil-right-side-img {
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-top: 130px;
+  width: 400px;
+
+}
